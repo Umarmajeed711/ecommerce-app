@@ -1,0 +1,26 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: #FFF;
+    height: 10vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul li{
+    transition: all .5s;
+}
+ul li:hover , ul li:active{
+    
+    text-shadow: 0 0 3px rgba(255,255,255,.8);
+    text-decoration: underline;
+}
